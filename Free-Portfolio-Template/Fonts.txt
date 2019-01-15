@@ -1,0 +1,3 @@
+Raleway Medium, Bold
+Roboto Regular
+Fontawesome

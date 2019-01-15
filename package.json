@@ -1,0 +1,11 @@
+{
+  "name": "kukura",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/andriikukura/portfolio.git",
+  "author": "Andrii Kukura",
+  "license": "MIT",
+  "dependencies": {
+    "blendid": "^4.4.3"
+  }
+}

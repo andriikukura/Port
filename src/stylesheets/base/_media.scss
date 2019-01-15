@@ -1,0 +1,54 @@
+@media (max-width: 600px) {
+.about-me {
+    .about-grid {
+        grid-template-areas: 
+        "info info"
+        "photowrapper photowrapper";
+    }
+}
+}
+
+
+@media (max-width: 767px) {
+    #intro {
+        .avatar {
+            display: none;
+        }
+    }
+
+    
+}
+
+@media (max-width: 576px) {
+    .timeline {
+        padding: 40px 5%;
+        &-item {
+            &:nth-child(even) {
+                @include make-col-offset(0);
+            }
+            &:nth-child(odd) {
+                text-align: left;
+                padding-left: 110px;
+                padding-right: 0;
+                &:before {
+                    left: -1px;
+                }
+            }
+            &-img {
+                left: 20px;
+            }
+        }
+    }
+}
+
+@media (max-width: 508px) {
+    header {
+        #intro {
+            .social {
+                width: 30px;
+                height: 30px;
+                line-height: 28px;
+            }
+        }
+    }
+}
